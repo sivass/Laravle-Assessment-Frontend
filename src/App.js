@@ -3,8 +3,15 @@ import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Detail from "./pages/Detail";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useDispatch } from "react-redux";
+import { useEffect } from "react";
+import { fetchProducts } from "./stores/product";
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchProducts());
+  },[dispatch])
   return (
     <BrowserRouter>
       <Routes>

@@ -30,7 +30,7 @@ export const products = [
         size:0
     },
     {
-        id:1,
+        id:4,
         name:'Product Name',
         price:600,
         sku:'product-name-04',
@@ -40,7 +40,7 @@ export const products = [
         size:0
     },
     {
-        id:1,
+        id:5,
         name:'Product Name',
         price:700,
         sku:'product-name-05',
@@ -50,7 +50,7 @@ export const products = [
         size:0
     },
     {
-        id:1,
+        id:6,
         name:'Product Name',
         price:99,
         sku:'product-name-06',
@@ -60,7 +60,7 @@ export const products = [
         size:200
     },
     {
-        id:1,
+        id:7,
         name:'Product Name',
         price:199.99,
         sku:'product-name-07',
@@ -70,7 +70,7 @@ export const products = [
         size:100
     },
     {
-        id:1,
+        id:8,
         name:'Product Name',
         price:200,
         sku:'product-name-08',
@@ -80,7 +80,7 @@ export const products = [
         size:30
     },
     {
-        id:1,
+        id:9,
         name:'Product Name',
         price:450,
         sku:'product-name-09',
@@ -90,7 +90,7 @@ export const products = [
         size:120
     },
     {
-        id:1,
+        id:10,
         name:'Product Name',
         price:400,
         sku:'product-name-10',

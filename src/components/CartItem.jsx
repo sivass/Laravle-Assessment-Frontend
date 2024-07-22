@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { products } from '../data/product';
-import { useDispatch } from 'react-redux';
+// import { products } from '../data/product';
+import { useDispatch, useSelector } from 'react-redux';
 import { changeQuantity } from '../stores/cart';
 
 const CartItem = (props) => {
+    const products = useSelector((state) => state.product.items);
     const { productId, quantity} = props.data;
     const [detail, setDetail] = useState([]);
     const dispatch = useDispatch();
