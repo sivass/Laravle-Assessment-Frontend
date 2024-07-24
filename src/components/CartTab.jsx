@@ -6,13 +6,13 @@ import calculateShipping from '../utils/calculateShipping';
 
 const CartTab = () => {
     const carts = useSelector(store => store.cart.items);
-    const subTotal = carts.reduce((sum, item) => sum + parseFloat(item.price), 0);
+    const subTotal = carts.reduce((sum, item) => sum + parseFloat(item.price) * item.quantity, 0);
     const shipping = calculateShipping(carts);
     const Total    = parseFloat(subTotal) + parseFloat(shipping);
     const statusTab = useSelector(store => store.cart.statusTab);
     const dispatch = useDispatch();
     const handleCloseTab = () => {
-        dispatch(toggleStatusTab())
+        dispatch(toggleStatusTab()) 
     }
   return (
     <div className={`fixed top-0 right-0 bg-gray-700 shadow-2xl w-96 h-full grid grid-rows-[60px_1fr_60px] transform transition-transform duration-500 ${statusTab === false ? "translate-x-full" :""}`}>

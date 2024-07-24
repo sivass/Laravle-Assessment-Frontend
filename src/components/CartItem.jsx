@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-// import { products } from '../data/product';
 import { useDispatch, useSelector } from 'react-redux';
 import { changeQuantity } from '../stores/cart';
 
