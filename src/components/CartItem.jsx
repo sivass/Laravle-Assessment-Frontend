@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { changeQuantity } from '../stores/cart';
+import CardLoader from './CardLoader';
 
 const CartItem = (props) => {
     const products = useSelector((state) => state.product.items);
@@ -25,6 +26,9 @@ const CartItem = (props) => {
         }))
     }
   return (
+    <>
+    {detail.length === 0 && <CardLoader />}
+    {detail && (
     <div className='flex justify-between items-center bg-slate-600 text-white p-2 border-b-2 border-slate-700 gap-5 rounded-lg'>
         <h3>{detail.name}</h3>
         <p>${detail.price * quantity }</p>
@@ -34,6 +38,8 @@ const CartItem = (props) => {
             <button className='bg-white h-full w-6 font-bold text-sm text-cyan-500  flex justify-center items-center' onClick={handlePlusQuantity}>+</button>
         </div>
     </div>
+    )}
+    </>
   )
 }
 

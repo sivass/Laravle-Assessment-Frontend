@@ -1,0 +1,105 @@
+{
+    "success": true,
+    "data": [
+        {
+            "id": 1,
+            "sku": "ELE-TV-01",
+            "name": "Amazon Fire TV Stick",
+            "price": 21.99,
+            "quantity": 30,
+            "type": "physical",
+            "weight": 100,
+            "size": null
+        },
+        {
+            "id": 2,
+            "sku": "ELE-BT-01",
+            "name": "Bluetooth Speaker with HD Sound",
+            "price": 19,
+            "quantity": 10,
+            "type": "physical",
+            "weight": 20,
+            "size": null
+        },
+        {
+            "id": 3,
+            "sku": "ELE-BT-02",
+            "name": "TAGRY Bluetooth Headphones True Wireless Earbuds",
+            "price": 49.99,
+            "quantity": 10,
+            "type": "physical",
+            "weight": 40,
+            "size": null
+        },
+        {
+            "id": 4,
+            "sku": "ACC-PH-01",
+            "name": "Wireless Charger iPhone Charging Station",
+            "price": 19,
+            "quantity": 10,
+            "type": "physical",
+            "weight": 10,
+            "size": null
+        },
+        {
+            "id": 5,
+            "sku": "SP-BOTTLE-01",
+            "name": "Insulated Water Bottle with Straw Sport Stainless Steel",
+            "price": 29.99,
+            "quantity": 10,
+            "type": "physical",
+            "weight": 60,
+            "size": null
+        },
+        {
+            "id": 6,
+            "sku": "BK-01",
+            "name": "Hillbilly Elegy: A Memoir of a Family and Culture in Crisis",
+            "price": 9.4,
+            "quantity": 5,
+            "type": "downloadable",
+            "weight": null,
+            "size": 120
+        },
+        {
+            "id": 7,
+            "sku": "BK-02",
+            "name": "The Housemaid",
+            "price": 6,
+            "quantity": 5,
+            "type": "downloadable",
+            "weight": null,
+            "size": 50
+        },
+        {
+            "id": 8,
+            "sku": "BK-03",
+            "name": "Never Lie",
+            "price": 36,
+            "quantity": 5,
+            "type": "downloadable",
+            "weight": null,
+            "size": 150
+        },
+        {
+            "id": 9,
+            "sku": "BK-04",
+            "name": "Just for the Summer",
+            "price": 20,
+            "quantity": 5,
+            "type": "downloadable",
+            "weight": null,
+            "size": 60
+        },
+        {
+            "id": 10,
+            "sku": "BK-05",
+            "name": "All the Colors of the Dark",
+            "price": 28,
+            "quantity": 5,
+            "type": "downloadable",
+            "weight": null,
+            "size": 70
+        }
+    ]
+}
